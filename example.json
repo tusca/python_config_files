@@ -1,0 +1,11 @@
+{
+    "database": {
+        "user": "root",
+        "password": "s3cret",
+        "server": "127.0.0.1",
+        "port": 3306
+    },
+    "api": {
+        "url": "http://127.0.0.1:5000"
+    }
+}
