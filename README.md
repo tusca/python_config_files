@@ -31,7 +31,7 @@ PS: other functions exist ...
 
 ## Source code
 
-[example_json.py]
+[example_json.py](example_json.py)
 
 # Yaml
 Mostly for simple structures
@@ -46,7 +46,7 @@ from yaml import load, dump
 
 ## Source code
 
-[example_yaml.py]
+[example_yaml.py](example_yaml.py)
 
 # Ini
 Only if you have no choice ?
