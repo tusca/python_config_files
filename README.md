@@ -33,6 +33,28 @@ PS: other functions exist ...
 
 [example_json.py](example_json.py)
 
+## load with namedtuple
+
+[example_json_tuple.py](example_json_tuple.py)
+
+allows to use the dots to access fields instead of brackets and quotes
+
+## load with SimpleNamespace (new/shiny)
+
+[example_json_simple.py](example_json_simple.py)
+
+same but more python3-ish
+
+## load 'manually' into class object
+
+[example_json_object.py](example_json_object.py)
+
+not only you have fields here but also IDEs will validate your use of valid fields and auto-complete and loading validates the expected structure
+
+## dotty
+
+TBD use the dotty module to allow single key to travel multiple levels deep into dicts
+
 # Yaml
 Mostly for simple structures
 ## required modules
