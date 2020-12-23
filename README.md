@@ -70,8 +70,17 @@ from yaml import load, dump
 
 [example_yaml.py](example_yaml.py)
 
-# Ini
-Only if you have no choice ?
+
+# Simple Ini
+Only if you have no choice, right ?
+
+```
+from configparser import ConfigParser
+config = ConfigParser()
+config.read("/path/to/file.cfg")
+with open("/path/to/file.cfg", "w") as f:
+    config.write(f)
+```
 
 # Xml 
 Who on earth would do that ?
